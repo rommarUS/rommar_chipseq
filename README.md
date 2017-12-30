@@ -23,12 +23,12 @@ For the installation and use of this pipeline there are two options:
   the directory to the variable PATH on .bashrc file. To do this, simply go to the installation folder
   where the chipseq_pipeline is, and copy the present working directory (pwd), which will be like:
 
-  /home/<user>/opt/chipseq_pipeline (or the directory where you decided to locate this pipeline).
+  /home/user/opt/chipseq_pipeline (or the directory where you decided to locate this pipeline).
 
-  - To edit the .bashrc file, go to home/<user> and type nano .bashrc (it is hardly recommended to make a security copy of this file)
+  - To edit the .bashrc file, go to home/user and type nano .bashrc (it is hardly recommended to make a security copy of this file)
 
   - Then, on the .bashrc file add a line at the end like this:
-  PATH=$PATH:/home/<user>/opt/chipseq_pipeline (change this for your actual path to chipseq_pipeline)
+  PATH=$PATH:/home/user/opt/chipseq_pipeline (change this for your actual path to chipseq_pipeline)
 
   - To execute chipseq_pipeline, simply type chipseq_pipeline on the command line followed by the complete path to param_file.txt
 
