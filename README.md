@@ -25,12 +25,12 @@ For the installation and use of this pipeline there are two options:
 
   /home/<user>/opt/chipseq_pipeline (or the directory where you decided to locate this pipeline).
 
-- To edit the .bashrc file, go to home/<user> and type nano .bashrc (it is hardly recommended to make a security copy of this file)
+  - To edit the .bashrc file, go to home/<user> and type nano .bashrc (it is hardly recommended to make a security copy of this file)
 
-- Then, on the .bashrc file add a line at the end like this:
+  - Then, on the .bashrc file add a line at the end like this:
   PATH=$PATH:/home/<user>/opt/chipseq_pipeline (change this for your actual path to chipseq_pipeline)
 
- - To execute chipseq_pipeline, simply type chipseq_pipeline on the command line followed by the complete path to param_file.txt
+  - To execute chipseq_pipeline, simply type chipseq_pipeline on the command line followed by the complete path to param_file.txt
 
 To complete parameter file:
 ===========================
@@ -51,7 +51,7 @@ chip2: /home/rommar/prr5_data/chip_prr5_chr1_2.fastq
 control1: /home/rommar/prr5_data/input_prr5_chr1_1.fastq
 control2: /home/rommar/prr5_data/input_prr5_chr1_2.fastq
 
-   In this parameters file, installation folder is the location of the program, root directory is the folder where
+In this parameters file, installation folder is the location of the program, root directory is the folder where
 the user wants to locate the working directory and master folder is where working directory will be built.
 
 Usually chipseq experiments only have one sample and one input, but this pipeline is prepared to process more
