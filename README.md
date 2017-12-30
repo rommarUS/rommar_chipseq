@@ -37,19 +37,19 @@ To complete parameter file:
 
 This is an example of local parameters file.
 
-installation_folder: /home/rommar/dev/chipseq_pipeline_global
-root_directory: /home/rommar/test
-master_folder: chipseq_test
-number_of_chip: 2
-number_of_control: 2
-genome: /home/rommar/prr5_data/chromosome1.fa
-annotation: /home/rommar/prr5_data/chromosome1.gtf
+- installation_folder: /home/rommar/dev/chipseq_pipeline_global
+- root_directory: /home/rommar/test
+- master_folder: chipseq_test
+- number_of_chip: 2
+- number_of_control: 2
+- genome: /home/rommar/prr5_data/chromosome1.fa
+- annotation: /home/rommar/prr5_data/chromosome1.gtf
 
-chip1: /home/rommar/prr5_data/chip_prr5_chr1_1.fastq
-chip2: /home/rommar/prr5_data/chip_prr5_chr1_2.fastq
+- chip1: /home/rommar/prr5_data/chip_prr5_chr1_1.fastq
+- chip2: /home/rommar/prr5_data/chip_prr5_chr1_2.fastq
 
-control1: /home/rommar/prr5_data/input_prr5_chr1_1.fastq
-control2: /home/rommar/prr5_data/input_prr5_chr1_2.fastq
+- control1: /home/rommar/prr5_data/input_prr5_chr1_1.fastq
+- control2: /home/rommar/prr5_data/input_prr5_chr1_2.fastq
 
 In this parameters file, installation folder is the location of the program, root directory is the folder where
 the user wants to locate the working directory and master folder is where working directory will be built.
