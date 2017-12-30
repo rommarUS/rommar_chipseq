@@ -1,5 +1,5 @@
 # rommar_chipseq
-A pipeline for the analysis of ChIP Sep data
+A pipeline for the analysis of ChIP Seq data.
 
 Please read this file before trying to run chipseq_pipeline.
 
